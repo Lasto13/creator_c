@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.4028mm" height="12.8058mm" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 640 1281"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 24.2 24.2">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="320.33" y1="1278.17" x2="320.33" y2="643.19">
+     <stop offset="0" stop-opacity="1" stop-color="#E7E7E7"/>
+     <stop offset="1" stop-opacity="1" stop-color="white"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_799550168">
+   <rect fill="#80B541" x="3" y="3" width="635" height="635"/>
+   <path fill="#80B541" d="M640 640l-640 0 0 -640 640 0 0 640zm-635 -5l630 0 0 -630 -630 0 0 630z"/>
+  </g>
+  <g id="_799559264">
+  </g>
+  <g id="_799556528">
+  </g>
+  <g id="_799556768">
+  </g>
+  <g id="_799555976">
+  </g>
+  <g id="_799556408">
+  </g>
+  <g id="_799556072">
+  </g>
+  <g id="_799553360">
+   <polygon fill="url(#id0)" points="3,1278 638,1278 638,643 3,643 "/>
+   <path fill="lightgrey" d="M640 1281l-640 0 0 -640 640 0 0 640zm-635 -5l630 0 0 -630 -630 0 0 630z"/>
+  </g>
+  <g id="_799552640">
+  </g>
+  <g id="_799553552">
+  </g>
+  <g id="_799555304">
+  </g>
+  <g id="_799555136">
+  </g>
+  <g id="_799555040">
+  </g>
+  <g id="_799554896">
+  </g>
+  <polygon fill="#231F20" points="232,787 433,965 342,970 407,1111 370,1129 302,990 239,1055 "/>
+  <polygon fill="#231F20" points="233,144 434,322 344,327 409,468 371,487 304,347 241,412 "/>
+ </g>
+</svg>

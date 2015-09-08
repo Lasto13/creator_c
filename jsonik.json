@@ -1,0 +1,813 @@
+﻿{
+"balkony": {
+        "pocet": 2,
+        "child": [
+            {
+                "nazov": "balkon",
+                "asset": "http://85.159.111.72/katre/bundles/balkony/balkon.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/balkon.png",
+                "imageright": "http://85.159.111.72/katre/pictures/balkon.png",                
+                "imagemiddle": "http://85.159.111.72/katre/pictures/balkon.png",
+                "imageleft": "http://85.159.111.72/katre/pictures/balkon.png",
+                "imageorna": "http://85.159.111.72/katre/pictures/balkon.png"
+            },
+            {
+                "nazov": "balkon_umakov",
+                "asset": "http://85.159.111.72/katre/bundles/balkony/balkon_umakov.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/balkon.png",
+                "imageright": "http://85.159.111.72/katre/pictures/balkon.png",                
+                "imagemiddle": "http://85.159.111.72/katre/pictures/balkon.png",
+                "imageleft": "http://85.159.111.72/katre/pictures/balkon.png",
+                "imageorna": "http://85.159.111.72/katre/pictures/balkon.png"
+            }
+            ]
+    },
+"okna": {
+        "pocet": 10,
+        "child": [            
+            {
+                "nazov": "okno_plastove_Drevo",
+                "asset": "http://localhost/creator/Bundles/window1.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okno_plast.png"
+            },
+            {
+                "nazov": "okno_plastove_3Drevo",
+                "asset": "http://85.159.111.72/stefan/window2.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okno_plast_2.png"
+            },
+            {
+                "nazov": "okno_plastove_3",
+                "asset": "http://85.159.111.72/stefan/window3.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okno_hlinik.png"
+            },
+                        {
+                "nazov": "okno_plastove_1",
+                "asset": "http://85.159.111.72/stefan/window4.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/Okno_plastove.png"
+            },
+            {
+                "nazov": "okno_hlinikove_Drevo",
+                "asset": "http://85.159.111.72/stefan/window5.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okno_hlinik.png"
+            },
+            {
+                "nazov": "okno_hlinikove_2Drevo",
+                "asset": "http://85.159.111.72/stefan/window6.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okno_hlinik_1.png"
+            },
+            {
+                "nazov": "okno_hlinikove_2",
+                "asset": "http://85.159.111.72/stefan/window7.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okno_hlinik_2.png"
+            },
+            {
+                "nazov": "okno_hlinikove_1",
+                "asset": "http://85.159.111.72/stefan/window8.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/Okno_plastove.png"
+            },
+            {
+                "nazov": "okna_ekoma_Drevo",
+                "asset": "http://85.159.111.72/stefan/window9.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okna_ekoma_2.png"
+            },
+            {
+                "nazov": "okna_ekoma_Drevo",
+                "asset": "http://85.159.111.72/stefan/window10.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/okna_ekoma_2.png"
+            }
+        ]
+    },
+"dvere": {
+        "pocet": 4,
+        "child": [
+            {
+                "nazov": "doors_Cacao_60",
+                "asset": "http://85.159.111.72/stefan/dverecacao60.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/doors_Cacao_80.png"
+            },
+            {
+                "nazov": "doors_Cacao_80",
+                "asset": "http://85.159.111.72/stefan/dverecacao80.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/doors_Cacao_90.png"
+            },
+            {
+                "nazov": "doors_Cacao_90",
+                "asset": "http://85.159.111.72/stefan/dverecacao90.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/Dvere.png"
+            },
+            {
+                "nazov": "doors_other",
+                "asset": "http://85.159.111.72/stefan/dveredb711w.unity3d",
+                "image": "http://85.159.111.72/katre/pictures/Dvere.png"
+            }
+        ]
+    },
+    
+"manufacturers": [
+        {
+            "category": 1,                
+            "uidisplayname": "Javorina",      
+            "id": 0                         
+        },
+        {
+            "category": 1,
+            "uidisplayname": "Drevona",
+            "id": 1
+
+        },
+        {
+            "category": 1,
+            "uidisplayname": "Decodom",
+            "id": 2
+
+        },
+         {
+            "category": 1,
+            "uidisplayname": "LastoDom",
+            "id": 3
+
+        }
+    ],
+
+"elements": [
+        {
+            "category": 2,                        
+            "uidisplayname": "Obývacia izba",       
+            "id": 0,                               
+            "child": [
+                {
+                    "category": 3,                    
+                    "uidisplayname": "Stolík",         
+                    "id": 0,                          
+                    "child": [
+                        {
+                            "category": 4, 
+                            "uidisplayname": "Konferenčné stolíky",
+                            "id": 0, 
+                            "parentid" : 0,                                               
+                            "products": [
+                                {
+                                    "category": 5,                                                                 
+                                    "uidisplayname": "Konferenčný stolík Rea3V",                                                
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_3v.unity3d",     
+                                    "image": "http://85.159.111.72/StolikRea3V.png",                         
+                                    "description": "Extra vysoký konferenčný stolík do obývačky v REA prevedeniach",   
+                                    "descriptionfordetail": "Extra vysoký konferenčný stolík REA 3v je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-3v/",                                              
+                                    "id": 1,                                                                   
+                                    "room": 0,                                                                     
+                                    "typ": 0,                                                                      
+                                    "subtyp": -1,                                                                 
+                                    "manufacturerid": 0,
+                                    "manufacturername":"Javorina"                                                            
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík Rea 5",
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_5.unity3d", 
+                                    "image": "http://85.159.111.72/StolikRea5.png",
+                                    "description": "Štvorcový konferenčný stolík do obývačky v REA prevedeniach",
+                                    "descriptionfordetail": "Štvorcový konferenčný stolík REA 5 je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-5/",
+                                    "id": 2,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 0,
+                                    "manufacturername":"Javorina" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík RP ROULETTE 1",
+                                    "path": "http://85.159.111.72/stefan/stolik_konferencny_rea_play_roulette_1.unity3d",
+                                    "image": "http://85.159.111.72/StolikRoulette.png",
+                                    "description": "Hranatý stolík do obývacej izby na nožičkách v REA prevedeniach",
+                                    "descriptionfordetail": "Konferenčný stolík REA PLAY ROULETTE 1 z modulového sektorového nábytku REA PLAY je určený do každej obývacej izby. Stolík do obývačky je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon. Konferenčný stolík REA PLAY ROULETTE je dostupný vo dvoch prevedeniach - na nožičkách (REA PLAY ROULETTE 1) alebo na pogumovaných kolieskach s brzdami (REA PLAY ROULETTE 2).",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rp-roulette-1/",
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        },
+                        {
+                            "category": 4, 
+                            "uidisplayname": "Velke stolíky",
+                            "id": 0, 
+                            "parentid" : 0,                                               
+                            "products": [
+                                {
+                                    "category": 5,                                                                 
+                                    "uidisplayname": "Konferenčný stolík Lasto1",                                                
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_3v.unity3d",
+                                    "image": "http://85.159.111.72/StolikRea3V.png",                         
+                                    "description": "Extra vysoký konferenčný stolík do obývačky v REA prevedeniach",   
+                                    "descriptionfordetail": "Extra vysoký konferenčný stolík REA 3v je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-3v/",                                              
+                                    "id": 1,                                                                   
+                                    "room": 0,                                                                     
+                                    "typ": 0,                                                                      
+                                    "subtyp": -1,                                                                 
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona"                                                             
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík Lasto2",
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_5.unity3d",
+                                    "image": "http://85.159.111.72/StolikRea5.png",
+                                    "description": "Štvorcový konferenčný stolík do obývačky v REA prevedeniach",
+                                    "descriptionfordetail": "Štvorcový konferenčný stolík REA 5 je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-5/",
+                                    "id": 2,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík RP Lasto3",
+                                    "path": "http://85.159.111.72/stefan/stolik_konferencny_rea_play_roulette_1.unity3d",
+                                    "image": "http://85.159.111.72/StolikRoulette.png",
+                                    "description": "Hranatý stolík do obývacej izby na nožičkách v REA prevedeniach",
+                                    "descriptionfordetail": "Konferenčný stolík REA PLAY ROULETTE 1 z modulového sektorového nábytku REA PLAY je určený do každej obývacej izby. Stolík do obývačky je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon. Konferenčný stolík REA PLAY ROULETTE je dostupný vo dvoch prevedeniach - na nožičkách (REA PLAY ROULETTE 1) alebo na pogumovaných kolieskach s brzdami (REA PLAY ROULETTE 2).",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rp-roulette-1/",
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        },
+                        {
+                            "category": 4, 
+                            "uidisplayname": "Male stolíky",
+                            "id": 0, 
+                            "parentid" : 0,                                               
+                            "products": [
+                                {
+                                    "category": 5,                                                                 
+                                    "uidisplayname": "Konferenčný stolík Stevo1",                                                
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_3v.unity3d",     
+                                    "image": "http://85.159.111.72/StolikRea3V.png",                         
+                                    "description": "Extra vysoký konferenčný stolík do obývačky v REA prevedeniach",   
+                                    "descriptionfordetail": "Extra vysoký konferenčný stolík REA 3v je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-3v/",                                              
+                                    "id": 1,                                                                   
+                                    "room": 0,                                                                     
+                                    "typ": 0,                                                                      
+                                    "subtyp": -1,                                                                 
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona"                                                             
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík Stevo2",
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_5.unity3d",
+                                    "image": "http://85.159.111.72/StolikRea5.png",
+                                    "description": "Štvorcový konferenčný stolík do obývačky v REA prevedeniach",
+                                    "descriptionfordetail": "Štvorcový konferenčný stolík REA 5 je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-5/",
+                                    "id": 2,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík RP Stevo3",
+                                    "path": "http://85.159.111.72/stefan/stolik_konferencny_rea_play_roulette_1.unity3d",
+                                    "image": "http://85.159.111.72/StolikRoulette.png",
+                                    "description": "Hranatý stolík do obývacej izby na nožičkách v REA prevedeniach",
+                                    "descriptionfordetail": "Konferenčný stolík REA PLAY ROULETTE 1 z modulového sektorového nábytku REA PLAY je určený do každej obývacej izby. Stolík do obývačky je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon. Konferenčný stolík REA PLAY ROULETTE je dostupný vo dvoch prevedeniach - na nožičkách (REA PLAY ROULETTE 1) alebo na pogumovaných kolieskach s brzdami (REA PLAY ROULETTE 2).",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rp-roulette-1/",
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        }
+                    ]
+                },
+                {
+
+                    "category": 3,
+                    "uidisplayname": "Sedacie súpravy",
+                    "id": 1,
+                    "child": [
+                        {
+                            "category": 4, 
+                            "uidisplayname": "Kožené",
+                            "id": 0, 
+                            "parentid" : 0,                                               
+                            "products": [
+                                {
+                                    "category": 5,                                                                 
+                                    "uidisplayname": "Sedacie súpravy 11",                                                
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_3v.unity3d",     
+                                    "image": "http://85.159.111.72/StolikRea3V.png",                         
+                                    "description": "Extra vysoký konferenčný stolík do obývačky v REA prevedeniach",   
+                                    "descriptionfordetail": "Extra vysoký konferenčný stolík REA 3v je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-3v/",                                              
+                                    "id": 1,                                                                   
+                                    "room": 0,                                                                     
+                                    "typ": 0,                                                                      
+                                    "subtyp": -1,                                                                 
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona"                                                             
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Sedacie súpravy 12",
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_5.unity3d",
+                                    "image": "http://85.159.111.72/StolikRea5.png",
+                                    "description": "Štvorcový konferenčný stolík do obývačky v REA prevedeniach",
+                                    "descriptionfordetail": "Štvorcový konferenčný stolík REA 5 je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-5/",
+                                    "id": 2,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Sedacie súpravy 13",
+                                    "path": "http://85.159.111.72/stefan/stolik_konferencny_rea_play_roulette_1.unity3d",
+                                    "image": "http://85.159.111.72/StolikRoulette.png",
+                                    "description": "Hranatý stolík do obývacej izby na nožičkách v REA prevedeniach",
+                                    "descriptionfordetail": "Konferenčný stolík REA PLAY ROULETTE 1 z modulového sektorového nábytku REA PLAY je určený do každej obývacej izby. Stolík do obývačky je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon. Konferenčný stolík REA PLAY ROULETTE je dostupný vo dvoch prevedeniach - na nožičkách (REA PLAY ROULETTE 1) alebo na pogumovaných kolieskach s brzdami (REA PLAY ROULETTE 2).",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rp-roulette-1/",
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        },
+                        {
+                            "category": 4, 
+                            "uidisplayname": "Drevené",
+                            "id": 0, 
+                            "parentid" : 0,                                               
+                            "products": [
+                                {
+                                    "category": 5,                                                                 
+                                    "uidisplayname": "Sedacie súpravy 21",                                                
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_3v.unity3d",       
+                                    "image": "http://85.159.111.72/StolikRea3V.png",                         
+                                    "description": "Extra vysoký konferenčný stolík do obývačky v REA prevedeniach",   
+                                    "descriptionfordetail": "Extra vysoký konferenčný stolík REA 3v je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-3v/",                                              
+                                    "id": 1,                                                                   
+                                    "room": 0,                                                                     
+                                    "typ": 0,                                                                      
+                                    "subtyp": -1,                                                                 
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona"                                                             
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Sedacie súpravy 22",
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_5.unity3d",
+                                    "image": "http://85.159.111.72/StolikRea5.png",
+                                    "description": "Štvorcový konferenčný stolík do obývačky v REA prevedeniach",
+                                    "descriptionfordetail": "Štvorcový konferenčný stolík REA 5 je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-5/",
+                                    "id": 2,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Sedacie súpravy 23",
+                                    "path": "http://85.159.111.72/stefan/stolik_konferencny_rea_play_roulette_1.unity3d",
+                                    "image": "http://85.159.111.72/StolikRoulette.png",
+                                    "description": "Hranatý stolík do obývacej izby na nožičkách v REA prevedeniach",
+                                    "descriptionfordetail": "Konferenčný stolík REA PLAY ROULETTE 1 z modulového sektorového nábytku REA PLAY je určený do každej obývacej izby. Stolík do obývačky je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon. Konferenčný stolík REA PLAY ROULETTE je dostupný vo dvoch prevedeniach - na nožičkách (REA PLAY ROULETTE 1) alebo na pogumovaných kolieskach s brzdami (REA PLAY ROULETTE 2).",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rp-roulette-1/",
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        },
+                        {
+                            "category": 4, 
+                            "uidisplayname": "Betonové",
+                            "id": 0, 
+                            "parentid" : 0,                                               
+                            "products": [
+                                {
+                                    "category": 5,                                                                 
+                                    "uidisplayname": "Sedacie súpravy 31",                                                
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_3v.unity3d",   
+                                    "image": "http://85.159.111.72/StolikRea3V.png",                         
+                                    "description": "Extra vysoký konferenčný stolík do obývačky v REA prevedeniach",   
+                                    "descriptionfordetail": "Extra vysoký konferenčný stolík REA 3v je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-3v/",                                              
+                                    "id": 1,                                                                   
+                                    "room": 0,                                                                     
+                                    "typ": 0,                                                                      
+                                    "subtyp": -1,                                                                 
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona"                                                             
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Sedacie súpravy 32",
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_5.unity3d",
+                                    "image": "http://85.159.111.72/StolikRea5.png",
+                                    "description": "Štvorcový konferenčný stolík do obývačky v REA prevedeniach",
+                                    "descriptionfordetail": "Štvorcový konferenčný stolík REA 5 je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-5/",
+                                    "id": 2,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Sedacie súpravy 33",
+                                    "path": "http://85.159.111.72/stefan/stolik_konferencny_rea_play_roulette_1.unity3d",
+                                    "image": "http://85.159.111.72/StolikRoulette.png",
+                                    "description": "Hranatý stolík do obývacej izby na nožičkách v REA prevedeniach",
+                                    "descriptionfordetail": "Konferenčný stolík REA PLAY ROULETTE 1 z modulového sektorového nábytku REA PLAY je určený do každej obývacej izby. Stolík do obývačky je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon. Konferenčný stolík REA PLAY ROULETTE je dostupný vo dvoch prevedeniach - na nožičkách (REA PLAY ROULETTE 1) alebo na pogumovaných kolieskach s brzdami (REA PLAY ROULETTE 2).",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rp-roulette-1/",
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        }
+                    ]
+                },
+                {
+
+                    "category": 3,
+                    "uidisplayname": "Komody",
+                    "id": 2,
+                    "child": [
+                        {
+                            "category": 0,
+                            "products": [
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Komoda Rea Denisa",
+                                    "path": "http://85.159.111.72/stefan/komoda_rea_denisa_up_015_drevona.unity3d",
+                                    "image": "http://85.159.111.72/KomodaReaDenisaUp15.png",
+                                    "description": "Elegantná komoda zo zostavy REA DENISA UP.",
+                                    "descriptionfordetail": "Kombinovaná komoda REA DENISA UP 015 s dvomi dverami do obývačky alebo spálne. Komoda do obývačky je vyrobená z kvalitnej laminovanej drevotrieskovej dosky (nie papiera).",
+                                    "pathformanufacturer": "http://www.drevona.sk/komoda/komoda-dub-canyon-rea-denisa-up-015/", 
+                                    "id": 4,
+                                    "room": 0,
+                                    "typ": 2,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Komoda Rea Sisa 2",
+                                    "path": "http://85.159.111.72/stefan/komoda_rea_sisa_2_drevo.unity3d",
+                                    "image": "http://85.159.111.72/ReaSisa2.png",
+                                    "description": "Komoda s tromi zásuvkami a dvierkami.",
+                                    "descriptionfordetail": "Komoda REA SISA 2 ponúka tri praktické šuflíky a dvierka do ktorejkoľvek miestnosti v domácnosti. Šikovná komoda je vyrobená z kvalitnej laminovanej drevotrieskovej dosky. Komoda je vyrábaná vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, slivka, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/komoda/komoda-dub-bardolino-rea-sisa-2/", 
+                                    "id": 5,
+                                    "room": 0,
+                                    "typ": 2,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Komoda Rea Sisa 9",
+                                    "path": "http://85.159.111.72/stefan/komodastylovareasisa9.unity3d",
+                                    "image": "http://85.159.111.72/ReaSisa9.png",
+                                    "description": "Komoda do obývačky.",
+                                    "descriptionfordetail": "Štýlová komoda REA SISA 9 pozostáva z jedných dvojdvierok a rýchlodostupného úložného priestoru pod hornou doskou. Komoda do spálne je vyrobená z kvalitnej laminovanej drevotrieskovej dosky. Štýlová komoda je vyrábaná vo všetkých REA drevodezénoch: biela, dub bardolíno, wenge, buk, slivka, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/komoda/stylova-komoda-rea-sisa-9/", 
+                                    "id": 6,
+                                    "room": 0,
+                                    "typ": 2,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+
+                    "category": 3,
+                    "uidisplayname": "Tv skrinka",
+                    "id": 3,
+                    "child": [
+                        {
+                            "category": 0,
+                            "products": [
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Tv skrinka Rea Denisa3",
+                                    "path": "http://85.159.111.72/stefan/skrinka_tv_rea_denisa_up_003_drevona.unity3d",
+                                    "image": "http://85.159.111.72/SkrinkaTVReaDenisa3.png",
+                                    "description": "Šikovná televízna skrinka zo zostavy REA DENISA UP v siedmich prevedeniach.",
+                                    "descriptionfordetail": "Televízna skrinky REA DENISA UP 003 do každej obývačky je určená do spodnej časti obývacej steny sektorového nábytku REA DENISA UP. Skrinka pod televízor je vyrábaná vo všetkých REA drevodezénoch: biela, dub bardolíno, wenge, buk, dub canyon a orech rockpile. Korpus TV skrinky je uzatvárateľný šikovnými dvierkami v ľavej časti. V strede je korpus skrinky predelený stredovou poličkou, resp. priečkou. Pravá časti televíznej skrinky je otvorená a rozdelená poličkou na dve časti. Poličku do pravej časti je možné prispôsobiť podľa potrieb. Televízna skrinka do obývačky je vyrobená z laminovanej drevotrieskovej dosky (nie papiera).",
+                                    "pathformanufacturer": "http://www.drevona.sk/skrinka/skrinka-pod-tv-rea-denisa-up-003/", 
+                                    "id": 7,
+                                    "room": 0,
+                                    "typ": 3,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "TV skrinka REA REBECCA 1/D",
+                                    "path": "http://85.159.111.72/stefan/tvReaRebeca1D.unity3d",
+                                    "image": "http://85.159.111.72/TvSkrinkaReaRebbeca1D.png",
+                                    "description": "Univerzálna spodná skrinka pod TV do obývacej izby v REA PLAY prevedeniach.",
+                                    "descriptionfordetail": "Skrinka pod TV REA REBECCA 1/D je spodná skrinka so zásuvkou zo sektorového systému REA REBECCA a je určená pod televízor do obývacej izby. TV skrinka pod televízor je vyrábaná z kvalitnej laminovanej drevotrieskovej dosky (nie papiera). Skrinka pod TV je vyrábaná vo všetkých REA PLAY dezénoch: biela, dub bardolíno, wenge a dub canyon. Na otváranie zásuvky skrinky bol použitý dotykový PUSH UP systém.",
+                                    "pathformanufacturer": "http://www.drevona.sk/skrinka/skrinka-pod-tv-rea-rebecca-1d/", 
+                                    "id": 8,
+                                    "room": 0,
+                                    "typ": 3,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "TV skrinka REA REBECCA 2/D",
+                                    "path": "http://85.159.111.72/stefan/tvReaRebeca2D.unity3d",
+                                    "image": "http://85.159.111.72/TvSkrinkaReaRebbeca1D.png",
+                                    "description": "Univerzálna spodná televízna skrinka do obývacej izby v REA PLAY prevedeniach",
+                                    "descriptionfordetail": "TV skrinka REA REBECCA 2/D je spodná skrinka so zásuvkou zo sektorového systému REA REBECCA a je určená pod TV do obývacej izby. Skrinka pod TV je vyrábaná z kvalitnej laminovanej drevotrieskovej dosky (nie papiera). TV skrinka je vyrábaná vo všetkých REA PLAY dezénoch: biela, dub bardolíno, wenge a dub canyon. Na otváranie zásuvky skrinky bol použitý dotykový PUSH UP systém.",
+                                    "pathformanufacturer": "http://www.drevona.sk/skrinka/tv-skrinka-rea-rebecca-2d/", 
+                                    "id": 9,
+                                    "room": 0,
+                                    "typ": 3,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+
+        },
+        {
+            "category": 2,                        
+            "uidisplayname": "Spálňa",       
+            "id": 1,                               
+            "child": [
+                {
+                    "category": 3,                    
+                    "uidisplayname": "Postele",         
+                    "id": 0,                          
+                    "child": [
+                        {
+                            "category": 4, 
+                            "uidisplayname": "Konferenčné stolíky",
+                            "id": 0, 
+                            "parentid" : 0,                                               
+                            "products": [
+                                {
+                                    "category": 5,                                                                 
+                                    "uidisplayname": "Konferenčný stolík Rea3V",                                                
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_3v.unity3d",    
+                                    "image": "http://85.159.111.72/StolikRea3V.png",                         
+                                    "description": "Extra vysoký konferenčný stolík do obývačky v REA prevedeniach",   
+                                    "descriptionfordetail": "Extra vysoký konferenčný stolík REA 3v je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-3v/",                                              
+                                    "id": 1,                                                                   
+                                    "room": 0,                                                                     
+                                    "typ": 0,                                                                      
+                                    "subtyp": -1,                                                                 
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona"                                                             
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík Rea 5",
+                                    "path": "http://localhost/creator/Bundles/stolik_konferencny_rea_5.unity3d",
+                                    "image": "http://85.159.111.72/StolikRea5.png",
+                                    "description": "Štvorcový konferenčný stolík do obývačky v REA prevedeniach",
+                                    "descriptionfordetail": "Štvorcový konferenčný stolík REA 5 je určený do každej obývačky, ale svoje využitie nájde určite aj v spálni alebo hosťovskej izbe. Pod vrchnou doskou stolíka sa nachádza odkladacia polička, napríklad na časopisy. Konferenčný stolík je vyrábaný vo všetkých REA dezénoch: biela, wenge, buk, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rea-5/",
+                                    "id": 2,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Konferenčný stolík RP ROULETTE 1",
+                                    "path": "http://85.159.111.72/stefan/stolik_konferencny_rea_play_roulette_1.unity3d",
+                                    "image": "http://85.159.111.72/StolikRoulette.png",
+                                    "description": "Hranatý stolík do obývacej izby na nožičkách v REA prevedeniach",
+                                    "descriptionfordetail": "Konferenčný stolík REA PLAY ROULETTE 1 z modulového sektorového nábytku REA PLAY je určený do každej obývacej izby. Stolík do obývačky je vyrábaný vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, orech rockpile a dub canyon. Konferenčný stolík REA PLAY ROULETTE je dostupný vo dvoch prevedeniach - na nožičkách (REA PLAY ROULETTE 1) alebo na pogumovaných kolieskach s brzdami (REA PLAY ROULETTE 2).",
+                                    "pathformanufacturer": "http://www.drevona.sk/konferencne-stoliky/konferencny-stolik-rp-roulette-1/",
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 0,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        }
+                    ]
+                },
+                {
+
+                    "category": 3,
+                    "uidisplayname": "Nočné stolíky",
+                    "id": 1,
+                    "child": [
+                        {
+                            "category": 0,
+                            "products": [
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Sedačka Maxisofa",
+                                    "path": "http://85.159.111.72/stefan/sedacka_maxisofa.unity3d",
+                                    "image": "http://85.159.111.72/Maxifosa.png",
+                                    "description": "Ideálny nábytok do obývačky.",
+                                    "descriptionfordetail": "Ponúka velkorysý priestor na sedenie. Vďaka tvaru U má dve ležadlá. Sedenie je pohodlné a vďaka kvalitnej pružinovej konštrukcii ho len tak ľahko nezničíte. Množstvo mäkkých vankúšov pôsobí hravo a súčasne navyše spríjemňujú sedenie. Je univerzálna, rohové diely môžete umiestniť ako vám to vyhovuje. Jednoducho sa rozkladá na príležitostnú posteľ. Má praktický úložný priestor pod sedákom v strednej časti. Nohy sú z lesklého chrómu. Farba: čierna. Rozmery: 185x350x230xv90 cm, lôžko: 150x320 cm, výška sedenia: 41 cm. Šírka stredného dielu je 137 cm, napr. pre výber konferenčného stolíka. Vankúše sú v cene sedačky.",
+                                    "pathformanufacturer": "http://www.drevona.sk/sedacky-v-tvare-u/sedacka-maxisofa-cierna/", 
+                                    "id": 3,
+                                    "room": 0,
+                                    "typ": 1,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+
+                    "category": 3,
+                    "uidisplayname": "Komody",
+                    "id": 2,
+                    "child": [
+                        {
+                            "category": 0,
+                            "products": [
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Komoda Rea Denisa",
+                                    "path": "http://85.159.111.72/stefan/komoda_rea_denisa_up_015_drevona.unity3d",
+                                    "image": "http://85.159.111.72/KomodaReaDenisaUp15.png",
+                                    "description": "Elegantná komoda zo zostavy REA DENISA UP.",
+                                    "descriptionfordetail": "Kombinovaná komoda REA DENISA UP 015 s dvomi dverami do obývačky alebo spálne. Komoda do obývačky je vyrobená z kvalitnej laminovanej drevotrieskovej dosky (nie papiera).",
+                                    "pathformanufacturer": "http://www.drevona.sk/komoda/komoda-dub-canyon-rea-denisa-up-015/", 
+                                    "id": 4,
+                                    "room": 0,
+                                    "typ": 2,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Komoda Rea Sisa 2",
+                                    "path": "http://85.159.111.72/stefan/komoda_rea_sisa_2_drevo.unity3d",
+                                    "image": "http://85.159.111.72/ReaSisa2.png",
+                                    "description": "Komoda s tromi zásuvkami a dvierkami.",
+                                    "descriptionfordetail": "Komoda REA SISA 2 ponúka tri praktické šuflíky a dvierka do ktorejkoľvek miestnosti v domácnosti. Šikovná komoda je vyrobená z kvalitnej laminovanej drevotrieskovej dosky. Komoda je vyrábaná vo všetkých REA dezénoch: biela, dub bardolíno, wenge, buk, slivka, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/komoda/komoda-dub-bardolino-rea-sisa-2/", 
+                                    "id": 5,
+                                    "room": 0,
+                                    "typ": 2,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Komoda Rea Sisa 9",
+                                    "path": "http://85.159.111.72/stefan/komodastylovareasisa9.unity3d",
+                                    "image": "http://85.159.111.72/ReaSisa9.png",
+                                    "description": "Komoda do obývačky.",
+                                    "descriptionfordetail": "Štýlová komoda REA SISA 9 pozostáva z jedných dvojdvierok a rýchlodostupného úložného priestoru pod hornou doskou. Komoda do spálne je vyrobená z kvalitnej laminovanej drevotrieskovej dosky. Štýlová komoda je vyrábaná vo všetkých REA drevodezénoch: biela, dub bardolíno, wenge, buk, slivka, orech rockpile a dub canyon.",
+                                    "pathformanufacturer": "http://www.drevona.sk/komoda/stylova-komoda-rea-sisa-9/", 
+                                    "id": 6,
+                                    "room": 0,
+                                    "typ": 2,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+
+                    "category": 3,
+                    "uidisplayname": "Satníky",
+                    "id": 3,
+                    "child": [
+                        {
+                            "category": 0,
+                            "products": [
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "Tv skrinka Rea Denisa3",
+                                    "path": "http://85.159.111.72/stefan/skrinka_tv_rea_denisa_up_003_drevona.unity3d",
+                                    "image": "http://85.159.111.72/SkrinkaTVReaDenisa3.png",
+                                    "description": "Šikovná televízna skrinka zo zostavy REA DENISA UP v siedmich prevedeniach.",
+                                    "descriptionfordetail": "Televízna skrinky REA DENISA UP 003 do každej obývačky je určená do spodnej časti obývacej steny sektorového nábytku REA DENISA UP. Skrinka pod televízor je vyrábaná vo všetkých REA drevodezénoch: biela, dub bardolíno, wenge, buk, dub canyon a orech rockpile. Korpus TV skrinky je uzatvárateľný šikovnými dvierkami v ľavej časti. V strede je korpus skrinky predelený stredovou poličkou, resp. priečkou. Pravá časti televíznej skrinky je otvorená a rozdelená poličkou na dve časti. Poličku do pravej časti je možné prispôsobiť podľa potrieb. Televízna skrinka do obývačky je vyrobená z laminovanej drevotrieskovej dosky (nie papiera).",
+                                    "pathformanufacturer": "http://www.drevona.sk/skrinka/skrinka-pod-tv-rea-denisa-up-003/", 
+                                    "id": 7,
+                                    "room": 0,
+                                    "typ": 3,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "TV skrinka REA REBECCA 1/D",
+                                    "path": "http://85.159.111.72/stefan/tvReaRebeca1D.unity3d",
+                                    "image": "http://85.159.111.72/TvSkrinkaReaRebbeca1D.png",
+                                    "description": "Univerzálna spodná skrinka pod TV do obývacej izby v REA PLAY prevedeniach.",
+                                    "descriptionfordetail": "Skrinka pod TV REA REBECCA 1/D je spodná skrinka so zásuvkou zo sektorového systému REA REBECCA a je určená pod televízor do obývacej izby. TV skrinka pod televízor je vyrábaná z kvalitnej laminovanej drevotrieskovej dosky (nie papiera). Skrinka pod TV je vyrábaná vo všetkých REA PLAY dezénoch: biela, dub bardolíno, wenge a dub canyon. Na otváranie zásuvky skrinky bol použitý dotykový PUSH UP systém.",
+                                    "pathformanufacturer": "http://www.drevona.sk/skrinka/skrinka-pod-tv-rea-rebecca-1d/", 
+                                    "id": 8,
+                                    "room": 0,
+                                    "typ": 3,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                },
+                                {
+                                    "category": 5,
+                                    "uidisplayname": "TV skrinka REA REBECCA 2/D",
+                                    "path": "http://85.159.111.72/stefan/tvReaRebeca2D.unity3d",
+                                    "image": "http://85.159.111.72/TvSkrinkaReaRebbeca1D.png",
+                                    "description": "Univerzálna spodná televízna skrinka do obývacej izby v REA PLAY prevedeniach",
+                                    "descriptionfordetail": "TV skrinka REA REBECCA 2/D je spodná skrinka so zásuvkou zo sektorového systému REA REBECCA a je určená pod TV do obývacej izby. Skrinka pod TV je vyrábaná z kvalitnej laminovanej drevotrieskovej dosky (nie papiera). TV skrinka je vyrábaná vo všetkých REA PLAY dezénoch: biela, dub bardolíno, wenge a dub canyon. Na otváranie zásuvky skrinky bol použitý dotykový PUSH UP systém.",
+                                    "pathformanufacturer": "http://www.drevona.sk/skrinka/tv-skrinka-rea-rebecca-2d/", 
+                                    "id": 9,
+                                    "room": 0,
+                                    "typ": 3,
+                                    "subtyp": -1,
+                                    "manufacturerid": 1,
+                                    "manufacturername":"Drevona" 
+                                }
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+
+        }
+        
+    ]
+}

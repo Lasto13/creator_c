@@ -1,0 +1,82 @@
+<div id="enli-header">
+  
+  <div id="SekciaContainer" style="pointer-events: auto;">
+    <a href="" class="button" title="Sekcia, kde si nakreslíte pôdorys" ng-class = "{activeSectionFirst:activeMenu.first, first:!activeMenu.first, nextActive:activeMenu.first, next:!activeMenu.first}"ng-click="Podorys();" ><br>PÔDORYS</a>
+    <a href="" class="button " title="Sekcia venovaná pridávaniu okien a dverí" ng-class = "{activeSectionSecond:activeMenu.second, second:!activeMenu.second, nextActive:activeMenu.second, next:!activeMenu.second}"ng-click="DW();" ><br>&nbsp;&nbsp;OKNÁ A DVERE</a>
+    <a href="" class="button " title="Sekcia venovaná zariadzovaniu interéru" ng-class = "{activeSectionThird:activeMenu.third, third:!activeMenu.third, nextActive:activeMenu.third, next:!activeMenu.third}"ng-click="Interier();"><br>INTERIÉR</a>
+  
+    <!--<a id="B30" href="" class="Button btn btn-default" ng-click="activateMenu(4); FPS();"><br>FPS</a> -->
+  </div>
+
+  <img id="EnliLogo" src="Buttons/enli_big_png.png">
+
+  <div id="ProjektMenuContainer" style ="pointer-events: auto;">
+    <div id="B24" class='buttonMenu' title="Otvoriť nový projekt" ng-click = "NovyProjekt()"></div>
+    <div id="B25" class='buttonMenu' title="Otvoriť uložený projekt" ng-click = "SetLoad();"></div>
+    <div id="B26" class='buttonMenu' title="Uložiť tento projekt" ng-click = "UlozitProjekt();"></div>
+    <div id="B27" class='buttonMenu' title="Nastavenia projektu" ng-click = "SetSettings();"></div>
+  </div>
+
+  <div id="mainButtons">
+    <div id='leftBox'>
+      <a id="B10" title="Krok späť" class="Button btn-my inActive" ng-click="Undo()"></a>
+      <a id="B11" title="Krok vpred" class="Button btn-my inActive" ng-click="Redo()"></a>
+    </div>
+    <div id='buttSwitch'>
+      <input type="radio"  id="view_1" class="hidden" />
+      <a id="B12" title="2D pohľad" class="Button btn-my2 radio-view" ng-click = "D2D(); set_view('view_1')"></a>
+
+      <input type="radio"  id="view_2" class="hidden" />
+      <a id="B13" title="3D pohľad" class="Button btn-my radio-view" ng-click = "D3D(); set_view('view_2')"></a>
+    </div>
+    <div id='rightBox'>
+      <a id="B14" title="Vycentrovanie pohľadu" class="Button btn-my" ng-click = "Center()"></a>
+      <a id="B15" title="Prechod do pohľadu prvej osoby" class="Button btn-my" ng-click="FPS();"></a>
+    </div>
+  </div>
+</div>
+<div id="Settings" >
+  <p>
+  Kvalita grafiky
+  </p>
+  <form >
+    <input id='radio01' type="radio" name="Kvalita" value="Nizka" ng-click = "Kvalita(0)" > <label for="radio01"> Nízka </label><br>
+    <input id='radio02' type="radio" name="Kvalita" value="Stredna" ng-click = "Kvalita(1)"> <label for="radio02"> Stredná </label><br>
+    <input id='radio03' type="radio" name="Kvalita" value="Vysoka" checked="checked" ng-click = "Kvalita(2)"> <label for="radio03">Vysoká </label>
+  </form>
+  <p>Vyhladzovanie hrán</p>
+    <form >
+      <input id='radio04' type="radio" name="Hrany" value="Vypnute" ng-click = "HranySet(0)"> <label for="radio04"> Vypnuté </label><br>
+      <input id='radio05' type="radio" name="Hrany" value="2x" ng-click = "HranySet(2)"> <label for="radio05"> 2X </label><br>
+      <input id='radio06' type="radio" name="Hrany" value="3x" checked="checked" ng-click = "HranySet(1)"> <label for="radio06"> 4X </label>
+    </form>
+      <p>Rozmery</p>
+      <form >
+    <input id = "RozmeryZapnute"type="radio" name="Rozmery" value="Zapnuté" checked="checked" ng-click = "RozmerySet(1)"> <label for="RozmeryZapnute">Zapnuté </label><br>
+    <input id = "RozmeryVypnute"type="radio" name="Rozmery" value="Vypnuté" ng-click = "RozmerySet(0)"> <label for="RozmeryVypnute">Vypnuté </label><br>
+    </form>
+    <div id="mierka-radio" class="form-inline">
+      <p>Mierka</p>
+      <input class="mierka-input" id='radio1' type="radio" name="Mierka" value="Auto" ng-click = "MierkaAuto()"> 
+      <label for="radio1"></label> Auto <br>
+      <input class="mierka-input" id='radio2' type="radio" name="Mierka" value="10cm" checked="checked" ng-click = "Mierka10()">
+      <label for="radio2"></label> 10cm <br>
+      <input class="mierka-input" id='radio3' type="radio" name="Mierka" value="50cm" ng-click = "Mierka50()">
+      <label for="radio3"></label> 50cm <br>
+      <input class="mierka-input" id='radio4' type="radio" name="Mierka" value="100cm" ng-click = "Mierka100()">
+      <label for="radio4"></label> 100cm<br> 
+      <input class="mierka-input" id='radio5' type="radio" name="Mierka" value="Vyp" ng-click = "MierkaVyp()">
+      <label for="radio5"></label> Vyp.
+    </div>
+</div>
+
+<div id="LoadProject" style="pointer-events: auto;"><br>
+  <div ng-repeat = "save in saves.savePlace.parts | orderObjectBy:'created':true" class = "btn-group" >
+    <div id="loadcontent" style="background-image:url(http://www.a-mont.sk/images/rekreacnedomy/jednopodlazne/1_obrazok_podorys_1.jpg); background-size:100%;">
+    </div>
+    <p>{{save.name}}</p>
+    <p>{{save.created | date:'d.M.yyyy'}}</p>
+    <a class = "btn btn-default" title="" ng-click="CleanProject();OtvoritProjekt(save.data);">Načítať</a>
+    <a class = "btn btn-default" title="" ng-click="deleteSave(save.name)">Vymazať</a>
+  </div>
+</div>

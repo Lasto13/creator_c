@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 0,
+    "Path": "http://85.159.111.72/FloorMaterialImages/1.jpg",
+    "Name": "default"
+  },
+  {
+    "ID": 1,
+    "Path": "http://85.159.111.72/FloorMaterialImages/2.jpg",
+    "Name": "farebny"
+  },
+  {
+    "ID": 2,
+    "Path": "http://85.159.111.72/FloorMaterialImages/3.jpg",
+    "Name": "NormalMapped"
+  },
+  {
+    "ID": 3,
+    "Path": "http://85.159.111.72/FloorMaterialImages/4.jpg",
+    "Name": "unnamed"
+  }
+]

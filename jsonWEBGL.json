@@ -1,0 +1,511 @@
+﻿{
+"SkyboxPath" : "http://85.159.111.72/WebGLAssetBundles/skyboxWEBGL.unity3d",
+
+
+  "balkony": {
+    "Pocet": 0,
+    "child": []
+  },
+  "okna": {
+        "pocet": 10,
+        "child": [            
+            {
+                "nazov": "Plastové okno vzor 1",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window1.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_ekoma_1.png",
+                "description": "Plastové okno s osemkomovým profilom pre vlepované sklá so stredovým vymeniteľným tesnením. Rozmery 90x230 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 2",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window2.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_ekoma_1_drevo.png",
+                "description": "Plastové okno s osemkomovým profilom pre vlepované sklá so stredovým vymeniteľným tesnením v odtieni drevo. Rozmery 90x230 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 3",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window3.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_hlinikove_1.png",
+                "description": "Plastové okno s celoobvodovým kovaním pre vysokú bezpečnosť.  Rozmery 100x70 cm."
+            },
+                        {
+                "nazov": "Plastové okno vzor 4",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window4.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_hlinikove_2.png",
+                "description": "Plastové okno so šesťkomorovým profilom pre vlepované sklá so stredovým tesnením. Rozmery 105x70 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 5",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window5.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_hlinikove_2_drevo.png",
+                "description": "Plastové okno so šesťkomorovým profilom pre vlepované sklá so stredovým tesnením v drevenom prevedení. Rozmery 105x70 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 6",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window6.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_hlinikove_1_drevo.png",
+                "description": "Plastové okno s celoobvodovým kovaním pre vysokú bezpečnosť v drevenom prevedení. Rozmery 100x70 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 7",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window7.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_plastove_1.png",
+                "description": "Plastové okno vhodné pre nízkoenergetické domy. Rozmery 100x40 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 8",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window8.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_plastove_3.png",
+                "description": "Plastové okno s revolučnou technológiou vlepovania skla, moderný dizajn krídla. Rozmery 100x70 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 9",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window9.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_plastove_3_drevo.png",
+                "description": "Plastové okno s revolučnou technológiou vlepovania skla, moderný dizajn krídla v drevenom prevedí. Rozmery 100x70 cm."
+            },
+            {
+                "nazov": "Plastové okno vzor 10",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window10.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_plastove_1_drevo.png",
+                "description": "Plastové okno vhodné pre nízkoenergetické domy v drevenom prevedení. Rozmery 100x40 cm."
+            },
+      {
+                "nazov": "Plastové okno vzor 11",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window13.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_plastove_1000_plast.png",
+                "description": "Plastové okno s osemkomovým profilom pre vlepované sklá so stredovým vymeniteľným tesnením. Rozmery 210x100 cm."
+            },
+      {
+                "nazov": "Plastové okno vzor 12",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/window14.unity3d",
+                "image": "http://85.159.111.72/Obrazky/okno_plastove_1000_drevo.png",
+                "description": "Plastové okno s osemkomovým profilom pre vlepované sklá so stredovým vymeniteľným tesnením v drevenom prevedení. Rozmery 210x100 cm."
+            }
+        ]
+    },
+  "dvere": {
+        "pocet": 4,
+        "child": [
+            {
+                "nazov": "Dvere Cacao 60",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/dverecacao60.unity3d",
+                "image": "http://85.159.111.72/Obrazky/DvereCacao.png",
+                "description": "Dubové dvere v kakaovom odtieni s farbeným sklom. Rozmery 215x60 cm."
+            },
+            {
+                "nazov": "Dvere Cacao 80",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/dverecacao80.unity3d",
+                "image": "http://85.159.111.72/Obrazky/DvereCacao.png",
+                "description": "Dubové dvere v kakaovom odtieni s farbeným sklom. Rozmery 215x80 cm."
+            },
+            {
+                "nazov": "Dvere Cacao 90",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/dverecacao90.unity3d",
+                "image": "http://85.159.111.72/Obrazky/DvereCacao.png",
+                "description": "Dubové dvere v kakaovom odtieni s farbeným sklom. Rozmery 215x90 cm."
+            },
+            {
+                "nazov": "Dvere DB711W",
+                "asset": "http://85.159.111.72/WebGLAssetBundles/dveredb711w.unity3d",
+                "image": "http://85.159.111.72/Obrazky/DvereDB711.png",
+                "description": "Kvalitné Mahagónové dvere. Rozmery 210x65 cm."
+            }
+        ]
+    },
+  "manufacturers": [
+    {
+      "category": 1,
+      "uidisplayname": "Drevona",
+      "id": 0
+    },
+    {
+      "category": 1,
+      "uidisplayname": "Javorina",
+      "id": 1
+    },
+    {
+      "category": 1,
+      "uidisplayname": "Ostatné",
+      "id": 2
+    }
+  ],
+  "elements": [
+    {
+      "category": 2,
+      "uidisplayname": "Obývacia Izba",
+      "id": 0,
+      "child": [
+        {
+          "category": 3,
+          "uidisplayname": "Sedacie súpravy",
+          "id": 0,
+          "child": [
+            {
+              "category": 0,
+              "uidisplayname": "",
+              "id": 0,
+              "products": [
+                {
+                  "category": 5,
+                  "uidisplayname": "Sedacka Aida 2430",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/sedackaaida2430.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/sedackaaida2430.png",
+                  "description": "Kožená sedačka Aida v troch farebných prevedeniach",
+                  "descriptionfordetail": "Sedačka Aida ma kovové podstavce. Ramená sú vyrobené z dreva, výplň je polyuretánová pena pokrytá sterilizovaným anti - alergickým husacím perím.",
+                  "pathformanufacturer": "http://www.cierreimbottiti.it/english/dettaglio-prodotto.php?sECAction=details&idProd=80&iIdCategoria=4",
+                  "id": 0,
+                  "room": 0,
+                  "typ": 0,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 2
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Sedacka Maxisofa",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/sedacka_maxisofa.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/sedacka_maxisofa.png",
+                  "description": "Sedačka Maxisofa v štyroch farebných prevedeniach je ideálny nábytok do obývačky",
+                  "descriptionfordetail": "Ponúka velkorysý priestor na sedenie. Vďaka tvaru U má dve ležadlá. Sedenie je pohodlné a vďaka kvalitnej pružinovej konštrukcii ho len tak ľahko nezničíte. Množstvo mäkkých vankúšov pôsobí hravo a súčasne navyše spríjemňujú sedenie. Je univerzálna, rohové diely môžete umiestniť ako vám to vyhovuje. Jednoducho sa rozkladá na príležitostnú posteľ. Má praktický úložný priestor pod sedákom v strednej časti. ",
+                  "pathformanufacturer": "http://www.drevona.sk/sedacky-v-tvare-u/sedacka-maxisofa-cierna/",
+                  "id": 1,
+                  "room": 0,
+                  "typ": 0,
+                  "subtyp": -1,
+                  "manufacturerid": 0,
+                  "manufacturername": "Drevona",
+                  "placementOptions": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": 3,
+          "uidisplayname": "Stoly",
+          "id": 1,
+          "child": [
+            {
+              "category": 0,
+              "uidisplayname": "",
+              "id": 0,
+              "products": [
+                {
+                  "category": 5,
+                  "uidisplayname": "Stôl MT160",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/stolmt160.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/stolmt160.png",
+                  "description": "Stôl vyrobený z masívu v rozmeroch 160x76x90 cm",
+                  "descriptionfordetail": "Stôl vyrobený z masívu v rozmeroch 160x76x90 cm",
+                  "pathformanufacturer": "http://www.javorina.sk/index.php?lng=en&vyber=vyrobky&druh=stoly&vyrobok=MT200&st=2",
+                  "id": 0,
+                  "room": 0,
+                  "typ": 1,
+                  "subtyp": -1,
+                  "manufacturerid": 1,
+                  "manufacturername": "Javorina",
+                  "placementOptions": 2
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Konferenčný stolík DF50",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/stolikdf50.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/stolikdf50.png",
+                  "description": "Konferečný stolík vhodný do obývacej izby",
+                  "descriptionfordetail": "Stolík je vyrobený z masívu s rozmermi 50x40x50 cm",
+                  "pathformanufacturer": "http://www.javorina.sk/index.php?lng=sk&vyber=vyrobky&druh=stoliky&vyrobok=DF70&st=2",
+                  "id": 1,
+                  "room": 0,
+                  "typ": 1,
+                  "subtyp": -1,
+                  "manufacturerid": 1,
+                  "manufacturername": "Javorina",
+                  "placementOptions": 2
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Konferenčný stolík SF140",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/stoliksf140.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/stoliksf140.png",
+                  "description": "Konferenčný stolík SF140 vhodný do obývacej izby.",
+                  "descriptionfordetail": "Konferenčný stolík SF140 je vyrobený z masívu v rozmeroch 140x38x65 xm",
+                  "pathformanufacturer": "http://www.javorina.sk/index.php?lng=sk&vyber=vyrobky&druh=stoliky&vyrobok=SF140&st=1",
+                  "id": 2,
+                  "room": 0,
+                  "typ": 1,
+                  "subtyp": -1,
+                  "manufacturerid": 1,
+                  "manufacturername": "Javorina",
+                  "placementOptions": 2 
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": 3,
+          "uidisplayname": "Kreslá",
+          "id": 2,
+          "child": [
+            {
+              "category": 0,
+              "uidisplayname": "",
+              "id": 0,
+              "products": [
+                {
+                  "category": 5,
+                  "uidisplayname": "Kreslo Aida A",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/kresloaida.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/kresloaida.png",
+                  "description": "Kreslo Aida v troch farebných prevedeniach",
+                  "descriptionfordetail": "Kreslo Aida A je vyrobené z kože, 92 cm.",
+                  "pathformanufacturer": "http://www.cierreimbottiti.it/english/dettaglio-prodotto.php?sECAction=details&idProd=80&iIdCategoria=4",
+                  "id": 0,
+                  "room": 0,
+                  "typ": 2,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": 3,
+          "uidisplayname": "Knižnice",
+          "id": 3,
+          "child": [
+            {
+              "category": 0,
+              "uidisplayname": "",
+              "id": 0,
+              "products": [
+                {
+                  "category": 5,
+                  "uidisplayname": "Knižnica Klon",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/kniznicaklonjavorina.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/kniznicaklonjavorina.png",
+                  "description": "Knižnica Klon vyrobená z masívu",
+                  "descriptionfordetail": "Knižnica vhodná do obývacej izby alebo spálne. Vyrobená z masívu a kovových podstavcov.",
+                  "pathformanufacturer": "http://www.javorina.sk/index.php?lng=sk&vyber=vyrobky&druh=kniznice&vyrobok=KLON&st=1",
+                  "id": 0,
+                  "room": 0,
+                  "typ": 3,
+                  "subtyp": -1,
+                  "manufacturerid": 1,
+                  "manufacturername": "Javorina",
+                  "placementOptions": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": 3,
+          "uidisplayname": "Svietidlá",
+          "id": 4,
+          "child": [
+            {
+              "category": 0,
+              "uidisplayname": "",
+              "id": 0,
+              "products": [
+                {
+                  "category": 5,
+                  "uidisplayname": "Luster",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/lampa.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/lampa.png",
+                  "description": "Luster do obývacej izby",
+                  "descriptionfordetail": "Luster je tvorený štyroma samostatnými svietidlami, ktoré tvoria jeden komplex",
+                  "pathformanufacturer": "http://www.lovinhome.com/Louis-Poulsen-Moser-Pendant-Lamp-d-250-mm",
+                  "id": 0,
+                  "room": 0,
+                  "typ": 4,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 8
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Svietidlo Radon Nigra",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/svietidloradon.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/svietidloradon.png",
+                  "description": "Štýlové svietidlo v čiernom prevedení",
+                  "descriptionfordetail": "Svietidlo Radon Nigra je kvalitné svietidlo, ktoré slúži ako vhodný doplnok do moderných izieb.",
+                  "pathformanufacturer": "http://www.nest.co.uk/product/lightyears-radon-floor-lamp",
+                  "id": 1,
+                  "room": 0,
+                  "typ": 4,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": 3,
+          "uidisplayname": "TV skrinky",
+          "id": 5,
+          "child": [
+            {
+              "category": 0,
+              "uidisplayname": "",
+              "id": 0,
+              "products": [
+                {
+                  "category": 5,
+                  "uidisplayname": "TV skrinka GTVZ",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/skrinkatvgtvz.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/skrinkatvgtvz.png",
+                  "description": "Závesná Tv skrinka z masívu",
+                  "descriptionfordetail": "Tv skrinka GTVZ ja vyrobená z masívu, ktorá je vhodná na umiestnenie na stenu. Rozmery 180x32x45 cm. ",
+                  "pathformanufacturer": "http://www.javorina.sk/index.php?lng=sk&vyber=vyrobky&druh=TV&vyrobok=GTVZ&st=1",
+                  "id": 0,
+                  "room": 0,
+                  "typ": 5,
+                  "subtyp": -1,
+                  "manufacturerid": 1,
+                  "manufacturername": "Javorina",
+                  "placementOptions": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": 3,
+          "uidisplayname": "Doplnky",
+          "id": 6,
+          "child": [
+            {
+              "category": 0,
+              "uidisplayname": "",
+              "id": 0,
+              "products": [
+                {
+                  "category": 5,
+                  "uidisplayname": "Koberec",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/koberec.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/koberec.png",
+                  "description": "Kvalitný kusový koberec",
+                  "descriptionfordetail": "Koberec je vyrábaný v štyroch farebných prevedeniach",
+                  "pathformanufacturer": "http://www.koberce.sk",
+                  "id": 0,
+                  "room": 0,
+                  "typ": 6,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 2
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Obraz Charlie Chaplin",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/obrazcharliechaplin.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/obrazcharliechaplin.png",
+                  "description": "Maľovaný obraz Charlie Chaplin",
+                  "descriptionfordetail": "",
+                  "pathformanufacturer": "http://google.sk",
+                  "id": 1,
+                  "room": 0,
+                  "typ": 6,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 1
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Obraz Paris London NewYork",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/obrazparislondon.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/obrazparislondon.png",
+                  "description": "Maľovaný obraz s motívom svetových metropol",
+                  "descriptionfordetail": "",
+                  "pathformanufacturer": "http://google.sk",
+                  "id": 2,
+                  "room": 0,
+                  "typ": 6,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 1
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Šálka Dinera",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/salkadineraikea.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/salkadineraikea.png",
+                  "description": "Porcelánová šálka Dinera",
+                  "descriptionfordetail": "",
+                  "pathformanufacturer": "http://www.ikea.com",
+                  "id": 3,
+                  "room": 0,
+                  "typ": 6,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 4
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "TV ES8000 Samsung",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/tv.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/tv.png",
+                  "description": "Full HDLED televízia",
+                  "descriptionfordetail": "Samsung ES8000 je Smart 3D televízia s uhlopriečkou 55",
+                  "pathformanufacturer": "http://www.samsung.com/uk/support/model/UE55ES8000UXXU",
+                  "id": 4,
+                  "room": 0,
+                  "typ": 6,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 4
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Box na časopisy",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/krabicacasopis.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/krabicacasopis.png",
+                  "description": "Vhodný doplnok do obývacej izby",
+                  "descriptionfordetail": "Box na časopisy je vyrobená z dreva a je vhodný pre uloženie časopisov alebo kníh",
+                  "pathformanufacturer": "",
+                  "id": 5,
+                  "room": 0,
+                  "typ": 6,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 6
+                },
+                {
+                  "category": 5,
+                  "uidisplayname": "Miska Hultet",
+                  "path": "http://85.159.111.72/WebGLAssetBundles/miskaovocna.unity3d",
+                  "image": "http://85.159.111.72/Obrazky/miskaovocna.png",
+                  "description": "Ručné robená miska Hultet ",
+                  "descriptionfordetail": "Miska Hultet je vhodná na uloženie ovocia. Je vyrobená z bambusu. Priemer misky je 30 cm a výška je 5cm",
+                  "pathformanufacturer": "http://www.ikea.com",
+                  "id": 6,
+                  "room": 0,
+                  "typ": 6,
+                  "subtyp": -1,
+                  "manufacturerid": 2,
+                  "manufacturername": "Ostatné",
+                  "placementOptions": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+label{cursor: pointer;}
+::-webkit-scrollbar {
+	background: #DEDEDE;
+	width: 6px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); 
+	-webkit-border-radius: 10px;
+	border-radius: 10px; 
+}
+::-webkit-scrollbar-corner {
+	background: transparent; 
+}
+::-webkit-scrollbar:horizontal {
+	width: 10px;
+	height: 10px; 
+}
+::-webkit-scrollbar-thumb {
+	height: 10px;
+	background-color: #7ca616;
+	/*border: solid whiteSmoke 4px;*/
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 10px;
+	border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #7ca616; 
+}
+body{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#loginScreen {position: absolute;width: 100%;height: 100%;z-index: 1003;background: #fff;}
+#loginScreen .enli-btn {color:#fff;background-image:url(img/button_bg.png);background-repeat:repeat-x;background-position:left top;width:150px;height:26%;margin-top:20px;outline: none;}
+#loginScreen .btn-login {background: url(img/prihlasit.svg);height: 38px;background-size: 100%;cursor: pointer;border: 0px}
+#loginScreen .btn-login:hover {opacity: 0.9}
+#loginScreen p{color: #d3d3d3}
+#loginScreen #loginPlaceholder {position: relative;width: 250px;text-align: center;margin: auto}
+#loginScreen #loginPlaceholder #formHolder{width: 150px; margin-left: 50px}
+#loginScreen #loginPlaceholder #formHolder input{margin-top: 15px;width: 150px}
+#loginScreen #loginPlaceholder h1{font-size: 28px}
+#loginScreen #loginPlaceholder #enliLogo {position: relative;background: transparent url("img/logo_enli.png") no-repeat scroll 0% ;width: 250px;height: 105px;background-size: 100%;margin-top: 50px}
+#loginScreen #loginPlaceholder #vcLogo{position: relative;width: 200px; height: 200px; background: transparent url("img/l_vc.svg") no-repeat scroll 0% 0%;background-size: 100%;margin-left: 25px;margin-top: 50px}
+#loginScreen #loginPlaceholder #linkHolder {position: fixed;bottom: 25px;margin-left: 90px;}
+#loginScreen #loginPlaceholder #linkHolder a:hover{text-decoration: underline;color: #7CA616}
+/*.btn-default{margin-bottom: 3px;background: #fff;color:#7CA616; border-color: #7CA616}*/
+#splash-sc,#wrapper{width:100%;height:100%}
+#sp-content h4,a{color:#7ca616}
+#errMsg ,.Button{vertical-align:middle;cursor: pointer}
+#errMsg h4{color: #7ca616}
+.menuHeader {position: relative;width: 100%;height: 24px;padding: 2px;}
+.closeMenu {position: relative;float: right; width:20px;height:20px;background-image: url(img/cancel_btn_sm.png);background-size:100%;z-index: 1001}
+.closeMenu:hover {background-image: url(img/cancel_btn_sm_hover.png);}
+#header .button.first,#header .button.second,#header .button.third{top:-4px;display:inline-block;font-weight:700}
+#header .button.first:hover:before,#header .button.first:hover,#header .button.first:hover:after,#header .button.second:hover,#header .button.second:hover:before,#header .button.second:hover:after,#header .button.third:hover,#header .button.third:hover:before,#header .button.third:hover:after{background-color: #559734}
+#loader,#loader:after,#loader:before{border-top-color:#7ca616}
+#wrapper{position:absolute;overflow:hidden}
+#splash-sc{background:#fff;position:fixed;top:0;left:0;z-index:1001}
+#sp-holder,#np-holder,.loader-count,.talk-to{position:absolute}
+.loader-count{font-family:Roboto;text-align:center;z-index:1002}
+.talk-to{width:400px;height:50;text-align:center}
+#sp-holder,#np-holder{width:100%;height:100%;z-index:10001;background:rgba(211,211,211,.5);opacity:0;display:none;transition:opacity 1.5s ease-in-out;-moz-transition:opacity 1.5s ease-in-out;-webkit-transition:opacity 1.5s ease-in-out}
+#sp-content,#np-content{position:relative;width:300px;height:150px;background:#fff;border: 1px solid #7ca616;border-radius:10px;left:44%;top:20%}
+#errMsg,#header,#header #EnliLogo{position:absolute}
+#sp-content input{margin-left:74px}
+#sp-content .enli-btn{color:#fff;background-image:url(img/button_bg.png);background-repeat:repeat-x;background-position:left top;width:30%;height:26%;margin-left:41px;margin-top:20px}
+#np-content .enli-btn{color:#fff;background-image:url(img/button_bg.png);background-repeat:repeat-x;background-position:left top;width:30%;height:26%;margin-left:41px;margin-top:20px}
+#np-content h4 {color: #7CA616; display: inline-block}
+#header .button.first,#header .button.next:after,#header .button.second,#header .button.third{background-color:#7CA616}
+#header .button.first,#header .button.second,#header .button.third{background-color:#7CA616;background-color:#7CA616;background-color:#7CA616}
+#errMsg{top:47%;left:40%;width:500px;height:40px;z-index:1003;border-radius:10px;background:#fff;text-align:center;pointer-events:none;opacity:0;transition:opacity 1.5s ease-in-out;-moz-transition:opacity .5s ease-in-out;-webkit-transition:opacity 1.5s ease-in-out}
+#header{top:0;width:100%;height:80px;z-index:1000}
+#header a:focus{text-decoration: none; color: white}
+#header #EnliLogo{background-size:100% auto;height:70px;width:150px;top:8%!important;left:47%}
+#header #enli-header{background-color:#7ca616;pointer-events:none;height:inherit;position:relative;z-index:1}
+#header #enli-header #mainButtons{position:absolute;float:left;top:80px;height:100%;width:35%;margin-left:35%;pointer-events:auto;padding-top:10px}
+#header #enli-header #mainButtons #leftBox{float:left}
+#header #enli-header #mainButtons #buttSwitch{position:relative;left:93px;float:left;margin-left:4px}
+#header #enli-header #mainButtons #rightBox{position:relative;left:93px;margin-left:4px;float:left}
+#header #ProjektMenuContainer{float:right;position:relative;width:250px;height:inherit;z-index:1000;right:4px;padding:5px}
+#header #ProjektMenuContainer .buttonMenu {width: 50px;float: left;margin: 5px;cursor: pointer;}
+#header #ProjektMenuContainer .buttonMenu:hover{opacity: 0.8}
+#header #SekciaContainer{position:relative;float:left;height:100%;z-index:1000;vertical-align:middle;padding-top:4px}
+#header #enli-header #BackgroundEnli{position:relative;width:100%;background-color:#7CA616;overflow:hidden;z-index:2}
+#header #Settings{position:absolute;z-index:-1;background-color:#FFF;height:500px;width:200px;float:right;border:1px solid #7ca616;border-radius:5px;pointer-events:auto;right:20px;top:-470px; padding-left: 25px;transition:top .5s ease-out 0s;-moz-transition:top .5s ease-in-out;-webkit-transition:top .5s ease-in-out}
+#header .button.first,#header .button.second,#header .button.third{position:relative;height:80px;border-radius:4px}
+#header .button.first{color:#fff;text-decoration:none;text-align:center;padding:5px 18px;font-size:16px;font-family:helvetica,arial,sans-serif;background-color:#7CA616;width:168px;z-index: 902}
+#header .button.second{color:#fff;text-decoration:none;text-align:center;padding:5px 25px;font-size:16px;font-family:helvetica,arial,sans-serif;background-color:#7CA616;width:207px;left:-4px;z-index: 901}
+#header .button.third{color:#fff;text-decoration:none;text-align:center;padding:5px 18px;font-size:16px;font-family:helvetica,arial,sans-serif;background-color:#7CA616;width:173px;left:-9px;z-index: 900}
+#header .button.next:after,#header .button.next:before{border-right:1px solid #FEFEFE;position:absolute;width:27px}
+#header #Settings #mierka-radio{position:relative;width:100%;float:right}
+#header #Settings input[type=radio]{display:none}
+#header #Settings label{display:inline-block;background:url(img/radio_of.png) no-repeat;width:21px;height:21px;margin-bottom:-5px;margin-left:4px; padding-left: 25px; font-weight: 300}
+#header #Settings input[type=radio]:checked+label{background:url(img/radio_on.png) no-repeat; padding-left: 25px}
+#LoadProject p,#Settings label{font-family:Roboto}
+#LoadProject p {font-size: .9em; margin-bottom: 0px}
+.TypeProductDesign,.TypeProductDesignClicked,.TypeTypeProductDesign,.TypeTypeProductDesignClicked{margin-bottom:0;font-weight:400;text-align:left}
+#header #ProjektMenuContainer .Button:hover{opacity: 0.8}
+#header .button:hover{color:#fff;text-decoration:none;cursor:pointer;cursor:hand}
+#header .button:focus{outline:0}
+#header .button.next{border-right:none}
+#header .button.next:after{content:'';height:40px;right:-13px;bottom:1px;background-color:#7CA616;background-color:#7CA616;background-color:#7CA616;background-color:#7CA616;-webkit-transform:skew(-35deg,0);-moz-transform:skew(-35deg,0);-o-transform:skew(-35deg,0);-ms-transform:skew(-35deg,0);transform:skew(-35deg,0);-webkit-box-shadow:2px 1px 2px rgba(100,100,100,.1);box-shadow:2px 1px 2px rgba(100,100,100,.1)}
+#header .button.next:before{content:'';background-color:#7CA616;background-color:#7CA616;background-color:#7CA616;background-color:#7CA616;background-color:#7CA616;height:40px;top:0;right:-13px;-webkit-transform:skew(35deg,0);-moz-transform:skew(35deg,0);-o-transform:skew(35deg,0);-ms-transform:skew(35deg,0);transform:skew(35deg,0)}
+#SaveProject p,#Settings p{font-family:Roboto;color:#7CA616;font-size:1.2em;margin-left:-20px;margin-top: 15px}
+#LoadProject p{left:5px;color:#7CA616}
+.podorys-section{position:absolute;top:80px;z-index:999;width:100%;height:100%;pointer-events:none}
+.podorys-section #podorys-toolbar{height:70px;width:100%;background-color:#FFF;position:relative;pointer-events:auto;z-index:999}
+.podorys-section #podorys-toolbar #mierka-radio{position:relative;width:320px;float:right;top:55px;left:-24px}
+.podorys-section #podorys-toolbar #mierka-radio input[type=radio]{display:none}
+.podorys-section #podorys-toolbar #mierka-radio label{display:inline-block;background:url(img/radio_of.png);width:21px;height:21px;margin-bottom:-5px;margin-left:4px}
+.podorys-section #podorys-toolbar #mierka-radio input[type=radio]:checked+label{background:url(img/radio_on.png)}
+.podorys-section .left-menu{z-index:1000;position:absolute;height:100%;width:270px;padding-top: 20px;padding-left:48px;background-color:#FFF;pointer-events:auto}
+.podorys-section .left-menu p{color:#7CA616;font-size:1.25em;font-family:Roboto;font-weight:700; white-space: nowrap}
+.podorys-section .left-menu #floor-types p{position: relative; top: 25px}
+.podorys-section .left-menu .ui-spinner {width: 179px}
+.podorys-section .left-menu .ui-spinner-button {text-decoration: none;}
+.podorys-section .left-menu .ui-spinner-up {margin-left: 8px}
+.podorys-section .left-menu .ui-spinner-down {margin-left: -6px}
+.podorys-section .left-menu #value{position:relative;width: 25px;top: 30px;left: -6px;color: #7ca616; display: none}
+.podorys-section .left-menu-item{width:180px;position:relative;margin-bottom:10px}
+.podorys-section .left-menu-item .Button{width: 180px;height:30px; line-height: 26px;}
+.podorys-section .left-menu-item input[type=radio]{display:none}
+.podorys-section .left-menu-item label{display:inline-block;background:url(img/radio_of.png);width:21px;height:21px;margin-bottom:-4px}
+.podorys-section .left-menu-item input[type=radio]:checked+label{background:url(img/radio_on.png)}
+.activeSectionFirst {  top: -4px;display: inline-block;font-weight: 700;  position: relative;height: 80px;border-radius: 4px;color: #FFF;text-decoration: none;text-align: center;padding: 5px 18px;font-size: 16px;font-family: helvetica,arial,sans-serif;background-color: #559734;width: 168px;z-index: 902}
+.activeSectionSecond {  top: -4px;display: inline-block;font-weight: 700;  position: relative;height: 80px;border-radius: 4px;color:#fff;text-decoration:none;text-align:center;padding:5px 25px;font-size:16px;font-family:helvetica,arial,sans-serif;background-color:#559734;width:207px;left:-4px;z-index: 901}
+.activeSectionThird {top: -4px;display: inline-block;font-weight: 700;  position: relative;height: 80px;border-radius: 4px;color:#fff;text-decoration:none;text-align:center;padding:5px 18px;font-size:16px;font-family:helvetica,arial,sans-serif;background-color:#559734;width:173px;left:-9px;z-index: 900}
+.activeSection:before .actiSection:after{background-color: #559734}
+.activeChoose {text-shadow: 0px 1px 0px #FFF;border-color: #CCC;background-repeat: repeat-x;background-color: #7CA616}
+#header .button.nextActive:after,#header .button.nextActive:before{border-right:1px solid #FEFEFE;position:absolute;width:27px}
+#header .button.nextActive{border-right:none}
+#header .button.nextActive:after{content:'';height:40px;right:-13px;bottom:1px;background-color:#559734;background-color:#559734;background-color:#559734;background-color:#559734;-webkit-transform:skew(-35deg,0);-moz-transform:skew(-35deg,0);-o-transform:skew(-35deg,0);-ms-transform:skew(-35deg,0);transform:skew(-35deg,0);-webkit-box-shadow:2px 1px 2px rgba(100,100,100,.1);box-shadow:2px 1px 2px rgba(100,100,100,.1)}
+#header .button.nextActive:before{content:'';background-color:#559734;background-color:#559734;background-color:#559734;background-color:#559734;background-color:#559734;height:40px;top:0;right:-13px;-webkit-transform:skew(35deg,0);-moz-transform:skew(35deg,0);-o-transform:skew(35deg,0);-ms-transform:skew(35deg,0);transform:skew(35deg,0)}
+#B0,#B1,#B2,#B3,#B4,#B6,#B7,#B8,#B9,.interier-section #sipka{background-size:100%}
+.podorys-section #MaterialChooser{position:absolute;left: -230px;float:left;z-index:999;background-color:#FFF;height:550px;width:109px;overflow: hidden;overflow-y: scroll;border:1px solid #7ca616;border-radius:5px;pointer-events:auto;transition:left .5s ease-out 0s;-moz-transition:left .5s ease-in-out;-webkit-transition:left .5s ease-in-out}
+.podorys-section .activeMat{border: solid 2px #7CA616;}
+.podorys-section #FloorChooser{position:absolute;left: -230px;float:left;z-index:999;background-color:#FFF;height:550px;overflow: hidden;overflow-y: scroll;width:109px;border:1px solid #7ca616;border-radius:5px;pointer-events:auto;transition:left .5s ease-out 0s;-moz-transition:left .5s ease-in-out;-webkit-transition:left .5s ease-in-out}
+.dw-section #MenuItemDoor,.dw-section #MenuItemWindowa{transition:left .5s ease-out 0s;border:1px solid #7CA616}
+.podorys-section .material-item{position:relative;width:100px;height:100px;margin:3px}
+.podorys-section .material-item:hover{border: 2px solid #7CA616}
+#B0{background-image:url(Buttons/1.png)}
+#B1{background-image:url(Buttons/15.png)}
+#B2{background-image:url(Buttons/18.png)}
+#B3{background-image:url(Buttons/16.png)}
+#B4{background-image:url(Buttons/20.png)}
+#B5{background-image:url(Buttons/17.png);background-size:100%}
+#B6{background-image:url(Buttons/10.png)}
+#B7{background-image:url(Buttons/12.png)}
+#B8{background-image:url(Buttons/11.png)}
+#B9{background-image:url(Buttons/13.png)}
+#loadcontent{position:relative;width:50%;height:100%;float:left}
+.dw-section{position:absolute;z-index:999;height:100%;width:100%;top:80px;pointer-events:none}
+.dw-section #dw-toolbar{position:relative;float:left;height:70px;width:100%;pointer-events:auto;background-color:#FFF;padding-top:10px;padding-left:15px}
+.dw-section .left-menu{position:relative;height:100%;width:270px;background-color:#FFF;pointer-events:auto;top:70px}
+.dw-section #MenuItemWindow{background-color:#FFF;height:84%;width:720px;border: 1px solid #7CA616;border-radius:5px;overflow:auto;float:left;position:absolute;pointer-events:auto;left:5px;-moz-transition:left .5s ease-in-out;-webkit-transition:left .5s ease-in-out}
+.dw-section #MenuItemWindow .window-item{width:100px;height:100px;display:inline-block}
+.dw-section #MenuItemDoor{background-color:#FFF;height:84%;width:720px;border-radius:5px;overflow:auto;float:left;position:absolute;pointer-events:auto;left:5px;-moz-transition:left .5s ease-in-out;-webkit-transition:left .5s ease-in-out}
+.dw-section #MenuItemDoor .door-item{width:100px;height:100px;display:inline-block}
+.dw-section #MenuItemWindow .prod-image-cont {position:relative;width:30%;height:93%;float:left;margin-top:3%}
+.dw-section #MenuItemDoor .prod-image-cont{position:relative;width:30%;height:93%;float:left;margin-top:3%}
+.dw-section #MenuItemWindow .prod-image{display:inline-block;width:80%;height:100%;margin-left:2px;background-size:100% auto;background-repeat:no-repeat}
+.dw-section #MenuItemDoor .prod-image{display:inline-block;width:80%;height:100%;margin-left:2px;background-size:100% auto;background-repeat:no-repeat}
+.dw-section #MenuItemWindow .prod-info{width:65%;position:relative;float:left}
+.dw-section #MenuItemDoor .prodInfo{width:65%;position:relative;float:left}
+.dw-section .prod-info a{color:#7CA616;cursor:pointer;position: relative;width: 55%;float: right}
+.dw-section .prod-info p{font-size: 12px;}
+.dw-section .btn-group{width:50%;height:157px}
+.dw-section .leftColumn {border-right: solid 1px; border-color:#7ca616}
+.dw-section .NotLastOnes {border-bottom: solid 1px;border-color:#7ca616}
+.dw-section .specialOne {border-bottom: solid 1px;border-color:#7ca616}
+.dw-section h4{color: #7CA616;margin-top:5px}
+.dw-section .menuHeader {height:26px}
+.dw-section .prod-top {position: relative;width:245px;height: 114px; overflow: hidden}
+.dw-section .enli-btn {color:#fff;background-image:url(img/button_bg.png);background-repeat:repeat-x;background-position:left top;width:40%}
+.dw-section .enli-btn:active,.dw-section .enli-btn:focus,.dw-section .enli-btn:hover{color:#fff;background-position:left bottom}
+.interier-section{position:relative;top:80px;width:100%;height:100%;pointer-events:none;z-index:999}
+.interier-section #sipkaHolder {height: 35px}
+.interier-section .sipkaInactive {opacity: 0.2}
+.interier-section #sipka{background-image:url(Buttons/sipky.png);background-size: 30px 20px;position:relative;width:30px;height:20px;cursor:pointer;float:right;transition:all .5s ease-out 0s;-moz-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out}
+.interier-section #ProductBox{position:absolute;height:83%;width:800px;background-color:#FFF;border:1px solid #7CA616;border-radius:5px;overflow:auto;float:left;pointer-events:auto;z-index:-1;transition:left .5s ease-out .1s;-moz-transition:left .5s ease-in-out;-webkit-transition:left .5s ease-in-out}
+.interier-section #ProductBox .enli-btn{color:#fff;background-image:url(img/button_bg.png);background-repeat:repeat-x;background-position:left top;width:40%}
+.enli-btn:active,.enli-btn:focus,.interier-section #ProductBox .enli-btn:hover{color:#fff;background-position:left bottom}
+.interier-section #ProductBox .NotLastOnes {border-bottom: solid 1px; border-color: #7CA616}
+.interier-section #ProductBox .leftColumn {border-right: solid 1px; border-color: #7CA616}
+.interier-section #ProductBox .specialOne {border-bottom: solid 1px;border-color:#7ca616}
+.interier-section #ProductBox .btn-group .prod-top {position: relative;width:245px;height: 114px; overflow: hidden}
+.interier-section #ProductBox .btn-group{width:50%;height:157px}
+.interier-section #ProductBox .btn-group .prod-image-cont{position:relative;width:30%;float:left;margin-top:35px}
+.interier-section #ProductBox .btn-group .prod-info{width:65%;position:relative;float:left}
+.interier-section #interier-toolbar{position:relative;background-color:#FFF;height:70px;z-index:999;width:100%;pointer-events:auto}
+.interier-section #interier-toolbar #buttons{position:relative;float:left;height:70px;background-color:#FFF;pointer-events:auto;width:20%;padding-top:10px;padding-left:15px}
+.interier-section .left-menu{position:relative;height:100%;width:270px;z-index:999;background-color:#FFF;pointer-events:auto}
+.interier-section .left-menu #InterierMenu{top:150px;height:100%;width:260px;background-color:#FFF;color:#7CA616;padding-left:18px;padding-right: 10px}
+.interier-section .left-menu .prod-image{display:inline-block;width:100px;height:100px;margin-left:2px;background-size:100% auto;background-repeat:no-repeat;cursor:pointer;}
+.interier-section #ProductBox .prod-info a{color:#7CA616;margin-left:35px;cursor:pointer}
+.interier-section h4{color:#7ca616}
+.interier-section #ProductBox p {font-size: .9em}
+.interier-section .left-menu p {font-size: 1.2em;position: relative;top: 6px; pointer-events: none;}
+.interier-section .left-menu .name{width: 198px;float: left;}
+.interier-section .left-menu .fajka{position: relative;float: right;width:19px;height:19px;margin-top: 4px; cursor: pointer}
+.interier-section .left-menu .fajka-active {background: url(img/checkbox_fajka.png); background-size: 100%}
+.interier-section .left-menu .fajka-inActive {background: url(img/checkbox_of.png); background-size: 100%}
+.interier-section .left-menu .halfT{background: url(img/checkbox_on.png) !important;background-size: 100% !important}
+.interier-section .left-menu .subFajka {position: relative; width: 15px; height: 15px; background-size: 100%;float: right;margin-top: -20px; margin-right: -14px; -webkit-margin-before: 4px;}
+/*.interier-section .left-menu .subFajkaActive {background: url(img/checkbox_fajka.png)}
+.interier-section .left-menu .subFajkaInactive {background: url(img/checkbox_of.png)}*/
+.interier-section .left-menu a {font-size: 1.2em;text-decoration: none; cursor: pointer;}
+.interier-section .left-menu a:active,.interier-section .left-menu a:hover {color: #000}
+.interier-section .left-menu .drop_arrow {width:10px; height:16px;background: url(Buttons/dropdown.png);cursor:pointer;background-size: 100%;float:left;margin-left:2px;margin-top: 4px;margin-right: 4px;transition:all .5s ease-out 0s;-moz-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out}
+.interier-section .left-menu .drop_arrow_rotated{transform: rotate(90deg);}
+.interier-section .left-menu #manCol:hover {color: #638512}
+.interier-section .left-menu #man-cont {position: relative; height: 80px !important;}
+.interier-section .left-menu #man-cont a {margin-bottom: 1px}
+.interier-section .left-menu #allSelector {height: 32px;margin-bottom: 10px;border-bottom: 1px solid}
+.interier-section .left-menu #allSelector a {width: 100%}
+.interier-section .left-menu .btn-default{margin-bottom: 3px;background: #fff;color:#7CA616; border-color: #7CA616}
+.interier-section .left-menu .multiselect-parent {width: 100%}
+.interier-section .left-menu .dropdown-menu{border:none;position:relative;min-width:232px;border-radius:0;box-shadow: none;margin: -1px 0px 10px; padding:12px 0px;padding-top: 0px}
+.interier-section .left-menu .dropdown-menu > ul {min-width: 183px;padding-bottom: 20;margin-bottom: 10px;box-shadow: none;}
+.interier-section .left-menu .dropdown-menu > li {height: 30px}
+.interier-section .left-menu .dropdown-menu .divider {height: 1px; margin:0px; margin-top: 3px}
+.interier-section .left-menu .dropdown-menu > li > a {height:30px;padding: 3px 10px;outline: 0; color: #7CA616}
+.interier-section .left-menu .dropdown-menu > li > a:hover,
+.interier-section .left-menu .dropdown-menu > li > a:focus {color: #7CA616;text-decoration: none;background-color: #000;outline: 0;background-image: linear-gradient(to bottom, #fff 0px, #fff 100%);background-repeat: repeat-x;}
+.interier-section .left-menu .dropdown{width:100%;padding:5px}
+.interier-section .left-menu .dropdown-toggle{width: 100%;font-size: 1.2em; cursor: pointer;margin-bottom: 10px}
+.interier-section .left-menu .margined {margin-left: 14px}
+.interier-section .left-menu .checkbox input[type="checkbox"] {position: absolute;right: 0px}
+.interier-section .left-menu label {position: absolute;right: 10px;width: 19px;height: 19px}
+.interier-section .left-menu .checkbox label {position: absolute;right: 0px;width: 19px;height: 19px}
+.interier-section .left-menu .labelActiveSingle {background: url(img/radio_on.png) no-repeat scroll 0% 0% / 100% auto;}
+.interier-section .left-menu .labelInactiveSingle {background: url(img/radio_of.png) no-repeat scroll 0% 0% / 100% auto;}
+.interier-section .left-menu .labelActive {background: url(img/checkbox_fajka.png) no-repeat scroll 0% 0% / 100% auto;}
+.interier-section .left-menu .labelInactive {background: url(img/checkbox_of.png) no-repeat scroll 0% 0% / 100% auto;}
+.interier-section .left-menu #Categories {margin-top: 20px;border-top: solid 2px;padding-top: 10;width: 108%;overflow-y:scroll}
+.fps-section{z-index:999;position:absolute;width:100%;bottom:0;height:100%;pointer-events:none;overflow:hidden}
+.fps-section .round-menu{pointer-events:auto;position:absolute;width:180px;height:180px;top:9px;left:19px}
+.fps-section .round-menu #del{position:relative;width:80px;height:79px;background:url(img/fps_gui/del.png);background-size: 100%;background-position:left bottom;float:left;left:3px}
+.fps-section .round-menu #del:hover{background-position: left top !important;opacity: 0.95}
+.fps-section .round-menu #change-mat{position:relative;width:80px;height:79px;background:url(img/fps_gui/chmat.png);background-size: 100%;background-position:left bottom;left:91px;top:0}
+.fps-section .round-menu #change-mat:hover{background-position:left top!important; opacity: 0.95}
+.fps-section .round-menu #close{position:absolute;width:30px;background:url(img/fps_gui/x.png);background-size: 100%;z-index:1001;background-position:left bottom;left:72px;height:30px;top:69px}
+.fps-section .round-menu #close:hover{background-position:left top!important;opacity: 0.95}
+.fps-section .round-menu #add{position:relative;width:80px;height:79px;background:url(img/fps_gui/add.png);background-size: 100%;background-position:left bottom;left:3px;top:10px;float:left}
+.fps-section .round-menu #add:hover{background-position:left top!important;opacity: 0.95}
+.fps-section .round-menu #change-obj{position:relative;width:80px;height:79px;background:url(img/fps_gui/chobj.png);background-size: 100%;background-position:left bottom;left:91px;top:10px;}
+.fps-section .round-menu #change-obj:hover{background-position:left top!important;opacity: 0.95}
+.fps-section .btn-menu .fps-btn-round:hover,.fps-section .btn-menu .fps-btn2:hover,.fps-section .btn-menu .fps-btn:hover{border: solid 2px #7CA616;}
+.fps-section .btn-menu{position:absolute;width:204px;margin-left:auto;left:19px;top:200px;pointer-events:auto}
+.fps-section .btn-menu .selected{border:2px solid}
+#header #LoadProject,#header #SaveProject{z-index:-1;float:right;border-radius:5px;border:1px solid #7ca616}
+.fps-section .btn-menu .fps-btn2{color:#7CA616;position:relative;width:85px;height:34px}
+.fps-section .btn-menu .fps-btn-round{position:relative;left:30%;margin:7px;color:#7ca616;border-radius:35px;width:35px;height:35px}
+.fps-section .btn-menu #colorCh,.fps-section .btn-menu #objMove,.fps-section .btn-menu #objRot,.fps-section .btn-menu #ok{visibility:hidden}
+.fps-section .btn-menu .fps-btn{color:#7CA616;position:relative;width:147px;height:35px;margin-left:14px}
+.fps-section #screenShot {position: absolute;width: 172px;height: 60px;margin-top: 5px;left: 47%;background:url(img/fps_gui/scrn.svg);background-size: 100%; pointer-events: auto;cursor: pointer;}
+.fps-section .right-menu{position: absolute;right: 0px;width: 480px;height:69px;pointer-events: auto;margin-top: 5px;margin-right: 16px;background: white;padding: 13px;border-radius: 10px}
+.fps-section .right-menu input{margin-left:20px;display:none}
+.fps-section .right-menu label{margin-top: 10px;display:inline-block;background:url(img/radio_of.png);width:21px;height:21px;margin-bottom:-4px;margin-left:20px}
+.fps-section .right-menu input[type=radio]:checked+label{background:url(img/radio_on.png);margin-left:20px}
+.fps-section .right-menu #d23{position: relative;width: 33%;float: right;height: 34px;background-color: #fff;border: solid 2px #7ca616;color: #7ca616;}
+.fps-section .right-menu #d23:hover{color: #fff;background: #7ca616}
+.fps-section #objMenu{display:none;position: absolute;right: 0px;background: rgb(124, 166, 22) none repeat scroll 0% 0%;width: 250px;height: 95%;z-index: 1001;top: 85px;}
+.fps-section #objMenu .closer{float: left;position: relative;height: 100%;width: 15px;background: red;}
+#ButtonContainer,#PodorysMenu,#PodorysMenu2,#header #LoadProject,#header #SaveProject{background-color:#FFF}
+#B10,#B11,#B12,#B13,#B14,#B15,#B15b{background-size:100%}
+#ButtonContainer{position:absolute;float:left;pointer-events:auto;margin-top:10px;margin-left:15px}
+.template .modal-dialog .modal-content{width:450px;height:150px;margin-left:auto;margin-right:auto}
+.template .modal-dialog .modal-content p{font-family:Roboto;color:#7CA616;font-size:2.5em;margin-left:56px}
+.TypeProductDesign,.TypeProductDesignClicked,.TypeTypeProductDesign,.TypeTypeProductDesignClicked{font-family:Roboto}
+.template .modal-dialog .modal-content .enli-btn{color:#fff;background-image:url(img/button_bg.png);background-repeat:repeat-x;background-position:left top;width:30%;height:26%;margin-left:58px;margin-top:20px}
+#PodorysMenu{position:relative;height:100px;width:35%;float:left}
+#canvasHolder{position:absolute;left:250px;top:180px;z-index:1}
+#canvas{position:absolute;height:100%;width:100%}
+#LoadProject .btn-group{width:100%;height:20%;border-bottom:solid 1px;border-color:#7ca616}
+#PodorysMenu2{position:relative;height:100%;width:35%;margin-left:38%}
+#header #LoadProject,#header #SaveProject{-webkit-transition:top .5s ease-out;position:absolute}
+#header #SaveProject{display:block;height:100px;width:250px;pointer-events:auto;transition:top .5s ease-out;right:20px;top:-70px}
+#header #LoadProject,.Button,.DoorButton{display:inline-block}
+#header #LoadProject{overflow:auto;height:350px;width:300px;pointer-events:auto;transition:top .5s ease-out;right:20px;top:-350px}
+#loader,#loader:after,#loader:before{border:3px solid transparent}
+.Button{width:50px;height:50px;margin-left:-2px}
+/*.DoorButton{vertical-align:left;width:100px;height:100px;margin-left:2px}*/
+#B20,#B21,#B23{width:180px;height:30px}
+.TypeProductDesign,.TypeProductDesignClicked,.TypeTypeProductDesign,.TypeTypeProductDesignClicked{display:block;vertical-align:middle}
+.btn-my{background-position:left bottom;cursor: pointer}
+.btn-my:hover{background-position:left top!important}
+.btn-my2{background-position:left top; cursor: pointer}
+.TypeProductDesign{color:#7CA616;padding:1px 2px;font-size:16px;line-height:1.42857143;white-space:nowrap}
+.TypeProductDesignClicked{color:#000;padding:1px 2px;font-size:16px;line-height:1.42857143;white-space:nowrap}
+.TypeProductDesign:hover{color:#000;text-decoration:none;cursor:pointer;cursor:hand}
+.TypeProductDesignClicked:hover{color:#7CA616;text-decoration:none;cursor:pointer;cursor:hand}
+.TypeTypeProductDesign{color:#000;padding:1px 10px;font-size:14px;line-height:1.42857143;white-space:nowrap}
+.TypeTypeProductDesignClicked{color:#7CA616;padding:1px 10px;font-size:14px;line-height:1.42857143;white-space:nowrap}
+#B16,#B17,#B18,#B19,#B20,#B21,#B22,#B23{display:inline-block}
+.TypeTypeProductDesign:hover{color:#000;text-decoration:none;cursor:pointer;cursor:hand}
+.TypeTypeProductDesignClicked:hover{color:#7CA616;text-decoration:none;cursor:pointer;cursor:hand}
+.typeInactive{pointer-events:none !important; cursor: url(http://85.159.111.72/cursors/1.png) !important; color: #7CA616 !important}
+.typeInactive:hover{pointer-events:none !important; cursor: url(http://85.159.111.72/cursors/1.png) !important; color: #7CA616 !important}
+#B20,#B21,#B22,#B23{background:#7CA616;color:#FFF}
+#B10{background-image:url(Buttons/2.png)}
+#B11{background-image:url(Buttons/14.png)}
+#B12{background-image:url(Buttons/7.png)}
+#B13{background-image:url(Buttons/8.png)}
+#B14{background-image:url(Buttons/6.png)}
+#B15,#B15b{background-image:url(Buttons/9.png)}
+#B18{margin-top:20px}
+#B22{margin-top:5px;width:180px;height:30px}
+#B24,#B25,#B26,#B27{height:70px}
+#BDW1,#BDW10,#BDW11,#BDW2,#BDW3,#BDW4,#BDW8,#BI1,#BI2,#BI3,#BI4,#BI8,#BI9{margin-top:20px}
+#B24{background:url(Buttons/new.svg)no-repeat;background-size:90%}
+#B25{background:url(Buttons/open.svg)no-repeat;background-size:100%}
+#B26{background:url(Buttons/save.svg)no-repeat;background-size:100%}
+#B27{background:url(Buttons/sett.svg)no-repeat;background-size:100%}
+#B28,#B29,#B30{background:#7CA616;text-align:middle;color:#FFF;width:150px;height:70px}
+#BDW1,#BDW10,#BDW11,#BDW2,#BDW3,#BDW4,#BDW5,#BDW6,#BDW8,#BDW9,#BI1,#BI2,#BI3,#BI4,#BI5,#BI6,#BI7,#BI8,#BI9{background-size:100%}
+#BDW1,#BI1{background-image:url(Buttons/7.png)}
+#BDW2,#BI2{background-image:url(Buttons/8.png)}
+#BDW3,#BI3{background-image:url(Buttons/6.png)}
+#BDW4,#BI4{background-image:url(Buttons/9.png)}
+#BDW5{background-image:url(Buttons/1.png)}
+#BDW6{background-image:url(Buttons/3.png)}
+#BDW7{background-image:url(Buttons/4.png);background-size:100%}
+#BDW8{background-image:url(Buttons/5.png)}
+#BDW9,#BI7{background-image:url(Buttons/20.png)}
+#BDW10,#BI8{background-image:url(Buttons/2.png)}
+#BDW11,#BI9{background-image:url(Buttons/14.png)}
+#BI5{background-image:url(Buttons/1.png)}
+#BI6{background-image:url(Buttons/rot.svg)}
+.spinner{width:115px}
+#slider{width: 180px; top: 30px}
+.spinner input{text-align:right}
+.input-group-btn-vertical{position:relative;white-space:nowrap;width:1%;vertical-align:middle;display:table-cell}
+.input-group-btn-vertical>.btn{display:block;float:none;width:100%;max-width:100%;padding:8px;margin-left:-1px;position:relative;border-radius:0}
+.input-group-btn-vertical>.btn:first-child{border-top-right-radius:4px}
+.input-group-btn-vertical>.btn:last-child{margin-top:-2px;border-bottom-right-radius:4px}
+#loader:after,#loader:before{position:absolute;border-radius:50%}
+.input-group-btn-vertical i{position:absolute;top:0;left:4px}
+.hidden{left:-10000px;position:absolute;top:-1000px}
+.creator-checkbox-btn{display:block;width:100%;margin-bottom:2px;position:relative}
+.creator-checkbox-btn .btn{width:100%;color:#c7c7c7;font-family:Helvetica,Arial,sans-serif;text-align:left}
+.inActive{opacity: 0.6;pointer-events: none}
+#browser-detect-wrap{width:100%;height:100%;position:fixed;top:0;left:0;z-index:2000;font-family:Roboto,sans-serif;background:#fff}
+#browser-detect-wrap .inst-firefox{background:url(TemplateData/guidelines-ff-logo.png)no-repeat #fff;width:267px;height:272px;position:relative;margin:2em auto 0}
+#loader,#loading-box{background-color:#fff}
+#browser-detect-wrap p{text-align:center;font-size:1.5em}
+#loading-box{z-index:1001;position:fixed;width:95%;height:93%;font-size:1.3em;display:block}
+#loader{z-index:1001;display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%; border-width: 3px; border-style: solid; border-color: #62EC9E transparent; -webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}
+#loader:before{content:"";top:5px;left:5px;right:5px;bottom:5px;-webkit-animation:spin 3s linear infinite;border-width: 3px; border-style: solid; border-color: #62EC9E transparent; animation:spin 3s linear infinite}
+#loader:after{content:"";top:15px;left:15px;right:15px;bottom:15px;-webkit-animation:spin 1.5s linear infinite;border-width: 3px; border-style: solid; border-color: #62EC9E transparent; animation:spin 1.5s linear infinite}
+@-webkit-keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}
+100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}
+100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+}
+/* portal STYLE duplicate */
+.interier-section .left-menu .enli-checkbox-btn {display: block;width: 100%;margin-bottom: 2px;position: relative}
+.interier-section .left-menu .enli-checkbox-btn .btn{background-image: none; width: 100%;color: #c7c7c7;/*background-color: #ebf4d7;*/font-family: 'Roboto Bold',Helvetica,Arial,sans-serif;text-align: left;}
+.interier-section .left-menu .enli-checkbox-btn .btn:hover,.enli-checkbox-btn .btn:focus {color: #c7c7c7;background-color: white;}
+.interier-section .left-menu .enli-checkbox-btn.active .btn{color: #97ba46;background-color: #ebf4d7;}
+/*
+.interier-section .left-menu .enli-checkbox-btn .enli-cancel-btn-sm {display: inline-block;/*float: right;*//*width: 19px;height: 19px;position: absolute;top: 6px;right: 12px;}
+/*.interier-section .left-menu .enli-checkbox-btn .active .enli-cancel-btn-sm {background: url('../media/img/cancel_btn_sm.png') no-repeat 50% 50%;}
+.interier-section .left-menu .enli-checkbox-btn .enli-cancel-btn-sm:hover {background: url('../media/img/cancel_btn_sm_hover.png') no-repeat 50% 50%;}
+*/
+/*
+.chbx-label{
+	padding-left: 25px;
+}
+
+.chbx {
+    display:none;
+}
+
+.chbx + label{
+    background:url('img/checkbox_of.png') no-repeat;
+    height: 18px;
+    width: 18px;
+    display:inline-block;
+}
+
+.chbx:checked + label{
+    background:url('img/checkbox_on.png') no-repeat;
+    height: 18px;
+    width: 18px;
+    display:inline-block;
+}
+*/
+#loader {
+  background-color: #fff;
+  z-index: 1001;
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #7ca616;
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+#loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #7ca616;
+
+        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #7ca616;
+
+        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    @-webkit-keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+
